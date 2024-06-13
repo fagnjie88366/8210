@@ -16,3 +16,5 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git clone https://github.com/fagnjie88366/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
+git clone https://github.com/fagnjie88366/OpenAppFilter.git package/lean/luci-app-oaf
